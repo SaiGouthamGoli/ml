@@ -53,7 +53,6 @@ class ModelTrainer:
             
             if best_model_score<0.6:
                 raise CustomException("No Best Model Found")
-            # Logging
             logging.info("Found Best Model on Train and Test Data")
             
             save_object(
